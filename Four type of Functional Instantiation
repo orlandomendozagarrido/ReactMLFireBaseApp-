@@ -1,0 +1,29 @@
+1.)Functional Instantiation
+var Animal = function(species, name){
+  var obj = {};
+  
+  obj.species = species;
+  obj.name = name;
+
+  obj.makeSound = function() {
+
+}
+
+  obj.eat = function(){
+
+
+}
+
+  obj.sleep = function(){
+  
+}
+
+  return obj;
+}
+
+
+// implementation of functional instantiation
+var tiger = new Animal("tiger", "tigger");
+tiger.eat();
+tiger.makeSound();
+
