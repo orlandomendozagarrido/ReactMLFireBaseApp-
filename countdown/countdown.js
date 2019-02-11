@@ -4,5 +4,12 @@
 function liftOff(num) {
   // Your code here.
   /* START SOLUTION */
+  for (var i = num; i>=0;i--){
+    if(i===0){
+      return "Liftoff!"
+    }
+    console.log("T minus " + i )
+  }
   /* END SOLUTION */
 }
+liftOff(60)
