@@ -1,6 +1,6 @@
 # Toy Problems
 
-Welcome to Recursion Toy Problems. This repository will be updated every morning with a new code challenge.
+Welcome to the HolaCode Toy Problems. This repository will be updated every morning with a new code challenge.
 
 Feel free to use Google to aid you in solving the coding challenges!
 
@@ -36,7 +36,7 @@ Solutions are submitted via [Pull Request](https://help.github.com/articles/usin
 1.  From **your fork**, select `Pull Requests` and then create a `New pull request`.
 2.  STOP. _Before_ you `Click to create a pull request for this comparison` you must **adjust the target branch** (aka `base branch`) to be your username. Once chagned, the pull-request heading should look like this:
 
-> HC02-CDMX:username ... username:master
+> HC-CDMX:username ... username:master
 
 3.  Copy and **paste the completed Grading Outline into the comment block** of your Pull Request.
 4.  Click `Send pull request`
@@ -48,7 +48,7 @@ the repo with HolaCode's. Git won't automatically pull in upstream changes for
 you; it trusts that you'll pull them in as needed. Do so by giving Git a reference
 to HolaCode's version of the repo:
 
-    git remote add upstream https://github.com/HC02-CDMX/toy-problems.git
+    git remote add upstream https://github.com/HC-CDMX/HC03-toy-problems.git
 
 After you've done that, updating your repo is as simple as running the following:
 
