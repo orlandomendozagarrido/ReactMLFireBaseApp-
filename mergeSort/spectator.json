@@ -1,0 +1,10 @@
+{
+  "babel": true,
+  "type": "browser",
+  "src": [
+    "mergeSort.js"
+  ],
+  "tests": [
+    "mergeSort.test.js"
+  ]
+}
