@@ -1,0 +1,10 @@
+{
+  "babel": true,
+  "type": "browser",
+  "src": [
+    "evenOccurrence.js"
+  ],
+  "tests": [
+    "evenOccurrence.test.js"
+  ]
+}
