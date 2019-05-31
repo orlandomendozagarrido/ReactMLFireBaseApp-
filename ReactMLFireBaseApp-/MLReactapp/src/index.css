@@ -1,0 +1,240 @@
+
+
+html {
+ margin: 0;
+ width: 100%;
+}
+
+h1 {
+  color: red;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+h2 {
+ text-align: center;
+ color: Yellow;
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  max-width: 768px;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+}
+.login-button {
+ height: 100px;
+ width: 100%;
+ position: fixed;
+ bottom: 0;
+ background: black;
+ max-width: 500px;
+ margin: 0 auto;
+}
+.login-container {
+ background-image: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2013/11/18/18/rooftopping4-tr.jpg');
+ background-position: center center;
+ background-size: 100% 100%;
+ width: 100%;
+ height: 100vh;
+
+}
+.button-text {
+ position: relative;
+ font-size: 25px;
+ color: white;
+ line-height: 50px;
+ left: 90px;
+}
+.google-logo {
+ height: 50px;
+ float: left;
+ background-size: contain;
+ background-repeat: no-repeat;
+ margin: 25px 20px;
+}
+#root {
+  width: 100%;
+  height: 100vh;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+/*#root {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}*/
+
+
+
+
+
+
+.login-h1{
+  font-size: 82px;
+  line-height: 6.1;
+  color: black;
+}
+
+.App {
+  text-align: center;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.scrolling-wrapper .main-photo.card-1.card {
+    display: inline-block !important;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.card-1.card.loading-card {
+  padding-top: 30px !important;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.testimonial-group {
+  max-width: 500px;
+}
+
+.testimonial-group > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.testimonial-group > .row > .col-xs-4 {
+  display: inline-block;
+  float: none;
+}
+
+.main-photo {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.main-close {
+  position: relative;
+  top: 50px;
+  left: 10px;
+}
+
+.card-1 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  padding: 25px;
+  padding-top: 30px;
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.50), 0 10px 10px rgba(0,0,0,0.32);
+}
+
+.dopple-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  /*position: relative;*/
+  /*bottom: 20px;  */
+}
+
+
+.text-center {
+  height: 130px;
+  overflow-y: hidden;
+  margin-bottom: 20px;
+}
+/* Decorations
+/*.testimonial-group > .row > .col-xs-4 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }
+.testimonial-group > .row > .col-xs-4:nth-child(3n+1) { background: #c69; }
+.testimonial-group > .row > .col-xs-4:nth-child(3n+2) { background: #9c6; }
+.testimonial-group > .row > .col-xs-4:nth-child(3n+3) { background: #69c; }*/
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.style{
+  height: 100px;
+}
+
+.google-login {
+  line-height:6.5;
+  width: 100%;
+  min-height: 100px;
+  position: fixed;
+  bottom: 0;
+  max-width: 100px;
+}
+
+.bottom-nav {
+  height: 50px;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  background-color: red;
+  max-width: 500px;
+}
+.col-bottom {
+  text-align: center;
+}
+
+.col-bottom a {
+  color: white;
+}
+
+.col-bottom :hover {
+  color: rgb(108,248,1880);
+}
+
+.bottom-icon {
+  font-size: 35px;
+  line-height: 44px;
+}
