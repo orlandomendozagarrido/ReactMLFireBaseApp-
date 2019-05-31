@@ -192,7 +192,7 @@ export default class Home extends Component {
                 </div>
 
                 <Modal show={this.state.showModal} onHide={this.handleClose}>
-                  console.log('this is model')
+                  
                     <Modal.Header closeButton>
                       <Modal.Title>Upload picture...</Modal.Title>
                     </Modal.Header>
