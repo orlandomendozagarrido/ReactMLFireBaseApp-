@@ -27,7 +27,7 @@ export default class Login extends Component {
        //set the splashscreen until its overridden by the real firebaseAuthKey
       localStorage.setItem(firebaseAuthKey, '1');
     }
-
+       //lifecycle to get the token key
     componentWillMount() {
        // componentWillMount lifecylce method to listen to when my component is mounted , as i need to know when a user is logged in
          //check if we are logged in, if we are go to home route
