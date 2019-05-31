@@ -15,7 +15,7 @@ class Cam extends Component {
     };
     this.renderButtons = this.renderButtons.bind(this);
   }
-
+//
   renderButtons () {
     return (
       <div>
