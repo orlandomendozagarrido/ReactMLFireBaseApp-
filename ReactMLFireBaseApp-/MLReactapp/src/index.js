@@ -13,6 +13,10 @@ import Home from './features/Home';
 import Cam from './features/Camera';
 import Album from "./features/Album";
 
+import "@fortawesome/fontawesome-free/css/all.min.css";
+//import "bootstrap-css-only/css/bootstrap.min.css";
+import "mdbreact/dist/css/mdb.css";
+
 
 
 const customHistory = createBrowserHistory();
@@ -22,7 +26,6 @@ const Root = () => {
     <Router history={customHistory}>
 
      <Switch>
-      <Route path="/Album" component={Album}/>
       <Route path="/login"  component={Login} />
       <Route path="/app/home" component={Home} />
       <Redirect from="/" to="/login" />

@@ -3,6 +3,10 @@ import React, { Component } from 'react';
 import { loginWithGoogle } from '../helpers/auth';
 import { firebaseAuth } from '../config/constants';
 import { Spinner } from 'react-bootstrap';
+import CarouselPage from './Album';
+import GlitchEffect from 'react-glitch-effect';
+
+
 
 //firebase authkey for authentication
 const firebaseAuthKey = 'firebaseAuthInProgress';
@@ -69,19 +73,26 @@ const styles = {
 //using a functional component for the LoginPage and we are also passing in an argument to this component which is the handleGoogleLogin method for use when we click the login button so it has access to that method
 const LoginPage = ({ handleGoogleLogin }) => (
 
+                      
 
         <div className="login-container">
-           <h2 className="animated infinite pulse delay-2s">Kindred StreamVision</h2>
-          
+                <GlitchEffect>          
+                <p>Kindred StreamVision</p>
+                </GlitchEffect>
+               <CarouselPage CarouselPage={CarouselPage} />
+                 
                <div onClick={handleGoogleLogin} className="login-button">
+                          
                         <div style={styles} className='google-logo'>
+                                      
                                 <span className="button-text">Sign In With Google</span>
-
+                                       
                        </div>
                 </div>
          </div>
 
+
 )
+ 
 
-
-const Splashscreen = () => (<div><Spinner animation="border" variant="warning" /><p>PLease Wait Loading...</p></div>)
+const Splashscreen = () => (<div><Spinner animation="border" variant="warning" /><h2>PLease Wait Loading...</h2></div>)

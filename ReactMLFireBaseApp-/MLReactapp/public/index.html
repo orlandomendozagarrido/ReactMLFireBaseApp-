@@ -5,23 +5,51 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+      <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/precious-regular" type="text/css"/>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+English|Playfair+Display:900"rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/site.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+     <link rel="stylesheet" type="text/css" href="css/site.css" />
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+     <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+   <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+     <script src="mgGlitch.min.js"></script>
 
-
+  
 
     <title>MLapp</title>
   </head>
   <body>
+     <div id="root"></div>
+    <script type="text/javascript">
+      $(function(){
+        $(".responsive").mgGlitch({
+          destroy: false,
+          glitch: true,
+          scale: true,
+          blend: true,
+          blendModeType: 'hue',
+          glitch1TimeMin: 500,
+          glitch1TimeMax: 100,
+          glitch2TimeMin: 100,
+          glitch2TimeMin: 100,
+
+        })
+      })
 
 
-    <div id="root"></div>
 
+    </script>
+
+     
+    
+   
+    
   </body>
 </html>

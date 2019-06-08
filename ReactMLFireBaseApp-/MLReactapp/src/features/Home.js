@@ -5,7 +5,8 @@ import { logout } from '../helpers/auth';
 import FileUploader from 'react-firebase-file-uploader';
 import firebase from 'firebase';
 import { ScaleLoader } from 'react-spinners';
-import { Cam } from './Camera';
+import  Cam  from './Camera.js';
+import GlitchEffect from 'react-glitch-effect';
 
 const appTokenKey = "appToken";
 export default class Home extends Component {
@@ -194,7 +195,7 @@ export default class Home extends Component {
                 <Modal show={this.state.showModal} onHide={this.handleClose}>
                   
                     <Modal.Header closeButton>
-                      <Modal.Title>Upload picture...</Modal.Title>
+                      <Modal.Title>Cloud Vision Results-Facial Detection of Similar Images...</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
                       <Image style={{ width: '100%' }} src={this.state.currentPhoto} responsive />
@@ -214,7 +215,9 @@ export default class Home extends Component {
 			<div>
                  
                 <h1>Photos Feed</h1>
+                <GlitchEffect> 
                 <h3> Upload a photo by clicking the middle button...</h3>
+                </GlitchEffect>   
                 {this.state.isMobile ? <h3>For selfies - rotate to landscape</h3>: ""}
 
 				{allImages}
@@ -222,6 +225,7 @@ export default class Home extends Component {
 				<Container className="bottom-nav">
 				  <Row className="show-grid">
 				    <Col xs={4} className="col-bottom">
+        
 				        <Link to="/app/Album"><i className="bottom-icon material-icons">collections</i></Link>
 				    </Col>
 				    <Col xs={4} className="col-bottom">
