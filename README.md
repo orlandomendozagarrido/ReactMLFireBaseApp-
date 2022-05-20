@@ -5,9 +5,7 @@ A React, Firebase and Google Cloud Vision machine learning API app
 
 Fullstack firebase server and database , React , Node , Deployed firebase functions.
 
-This Repo can not be cloned and reproduced . because unique firebase functions need to be deployed in order for the firestore realtime database to make the connection to the firebase server functions .
-
-working deployed beta https://mlproject-a59a6.firebaseapp.com
+#working deployed beta https://mlproject-a59a6.firebaseapp.com
 Available Scripts
 
 In the project directory, you can run:
